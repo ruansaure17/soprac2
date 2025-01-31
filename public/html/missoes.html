@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossas Missões</title>
+    <link rel="stylesheet" href="/public/css/soprac.css">
+    <link rel="icon" type="img/icon" href="/public/assets/IMG/icone.png" />
+</head>
+<body background="/public/assets/IMG/wallpaper.png">
+
+    <header>
+        <div class="links_header">
+          <!--Logo da Soprac-->
+          <img
+            class="logo_header"
+            src="/public/assets/IMG/logosoprac.png"
+            alt="Logo da Soprac no Cabeçalho da página"
+            width="58px"
+          />
+          <!--Logo da Soprac-->
+  
+          <!--Links de navegação da página-->
+          <nav>
+            <span>SOPRAC</span>
+            <a href="/public/html/index.html">Início</a>
+            <div class="portes_animais">
+                <button onclick="toggleOptions(this)">
+                    Animais
+                </button>
+                <div class="options">
+                  <div class="infos_portes">
+                    <ul>
+                      <li><a href="/public/html/pequeno_porte.html">Pequeno Porte</a></li>
+                      <li><a href="/public/html/medio_porte.html">Médio Porte</a></li>
+                      <li><a href="/public/html/grande_porte.html">Grande Porte</a></li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+              
+           
+            <a href="/public/html/missoes.html">Nossas Missões</a>
+            <a href="/public/html/sobre.html">Sobre nós</a>
+          </nav>
+  
+          <!--Links de navegação da página-->
+        </div>
+      </header>
+  
+      <main>
+        <!--Banner da SOPRAC-->
+        <section>
+          <img
+            src="/public/assets/IMG/banner_soprac.jpg"
+            alt="Banner da SOPRAC"
+            id="banner"
+            width="100px"
+          />
+        </section>
+        <!--Banner da SOPRAC-->
+        <section id="trabalhos_anos">
+          <div class="ano" onclick="toggleInformacoes(this)">
+            <div class="titulo">2019</div>
+            <div class="informacoes">
+            <p>
+                Castrações: 300<br>
+                Resgates: 131<br>
+                Adoções: 56
+            </p>
+              
+            </div>
+          </div>
+        
+          <div class="ano" onclick="toggleInformacoes(this)">
+            <div class="titulo">2020</div>
+            <div class="informacoes">
+            <p>
+                Castrações: 723<br>
+                Resgates: 248<br>
+                Adoções: 180
+            </p>
+              
+            </div>
+          </div>
+        
+          <div class="ano" onclick="toggleInformacoes(this)">
+            <div class="titulo">2021</div>
+            <div class="informacoes">
+            <p>
+                Castrações: 586<br>
+                Resgates: 198<br>
+                Adoções: 144
+            </p>
+              
+            </div>
+          </div>
+        
+          <div class="ano" onclick="toggleInformacoes(this)">
+            <div class="titulo">2022</div>
+            <div class="informacoes">
+                <p>
+                    Castrações: 504<br>
+                    Resgates: 177<br>
+                    Adoções: 130
+                </p>
+              
+            </div>
+          </div>
+        
+          <div id="ultimo_ano" class="ano" onclick="toggleInformacoes(this)">
+            <div class="titulo">2023</div>
+            <div class="informacoes">
+            <p>
+                Castrações: 653<br>
+                Resgates: 143<br>
+                Adoções: 111
+            </p>
+             
+            </div>
+          </div>
+        </section>
+        
+
+          <footer>
+            <div>
+              <img
+                src="/public/assets/IMG/logosoprac.png"
+                alt="Logo soprac cabeçalho"
+                width="50px"
+                id="logo_footer"
+              />
+            </div>
+            <div class="ctt">
+              <!--Link para o instagram da ONG-->
+              <a
+                href="https://www.instagram.com/soprac_oficial?igsh=MWxoaHlobjlyMXZrZA=="
+              >
+                <img
+                  src="/public/assets/IMG/insta.jpg"
+                  alt="Logo do instagram"
+                  width="40px"
+                />
+              </a>
+              <!--Fim Link para o instagram da ONG-->
+      
+              <!--Link para o whatsapp da ONG-->
+              <a href="">
+                <img
+                  src="/public/assets/IMG/Imagem do WhatsApp de 2024-11-23 à(s) 21.38.12_20ae489d.png"
+                  alt="Logo do Whatsapp"
+                  width="45px"
+                />
+              </a>
+      
+              <!--Fim Link para o whatsapp da ONG-->
+              <!--Link para o Facebook da ONG-->
+              <a href="https://www.facebook.com/share/1XKkHtYDm3/">
+                <img
+                  src="/public/assets/IMG/facebook.png"
+                  alt="Logo do Facebook"
+                  width="38px"
+                  id="facebook"
+                />
+              </a>
+      
+              <!-- Fim Link para o Facebook da ONG-->
+            </div>
+          </footer>
+      
+          <!--Botão de acessibilidade (libras)-->
+          <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+              <div class="vw-plugin-top-wrapper"></div>
+            </div>
+          </div>
+
+         <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+         <script src="/public/code/script.js"></script>
+    
+</body>
+</html>
