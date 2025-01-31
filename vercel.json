@@ -1,0 +1,17 @@
+{
+  "routes": [{ "src": "/index", "dest": "/html/index.html" }],
+  "builds": [
+    { "src": "html/index.html", "use": "@vercel/static" },
+    { "src": "html/pequeno_porte.html", "use": "@vercel/static" },
+    { "src": "html/medio_porte.html", "use": "@vercel/static" },
+    { "src": "html/grande_porte.html", "use": "@vercel/static" },
+    { "src": "html/sobre.html", "use": "@vercel/static" },
+    { "src": "html/missoes.html", "use": "@vercel/static" },
+    { "src": "html/dogs/churrasquinho.html", "use": "@vercel/static" },
+    { "src": "html/dogs/jandaia.html", "use": "@vercel/static" },
+    { "src": "html/dogs/jorge.html", "use": "@vercel/static" },
+    { "src": "html/dogs/kennedy.html", "use": "@vercel/static" },
+    { "src": "html/dogs/sol.html", "use": "@vercel/static" },
+    { "src": "html/dogs/thor.html", "use": "@vercel/static" }
+  ]
+}
