@@ -1,5 +1,8 @@
 {
-  "routes": [{ "src": "/(.*)", "dest": "/index.html" }],
+  "routes": [
+    { "src": "/$", "dest": "/index.html" },
+    { "src": "/(.*)", "dest": "/$1" }
+  ],
 
   "builds": [
     { "src": "/pequeno_porte.html", "use": "@vercel/static" },
