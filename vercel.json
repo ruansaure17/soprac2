@@ -2,7 +2,6 @@
   "routes": [{ "src": "/(.*)", "dest": "/index.html" }],
 
   "builds": [
-    { "src": "/index.html", "use": "@vercel/static" },
     { "src": "/pequeno_porte.html", "use": "@vercel/static" },
     { "src": "/medio_porte.html", "use": "@vercel/static" },
     { "src": "/grande_porte.html", "use": "@vercel/static" },
