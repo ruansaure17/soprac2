@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pequeno Porte</title>
+    <link rel="stylesheet" href="css/soprac.css" />
+    <link rel="icon" type="img/icon" href="assets/IMG/icone.png" />
+  </head>
+  <body background="assets/IMG/wallpaper.png">
+    <header>
+      <div class="links_header">
+        <!--Logo da Soprac-->
+        <img
+          class="logo_header"
+          src="assets/IMG/logosoprac.png"
+          alt="Logo da Soprac no Cabeçalho da página"
+          width="58px"
+        />
+        <!--Logo da Soprac-->
+
+        <!--Links de navegação da página-->
+        <nav>
+          <span>SOPRAC</span>
+          <a href="index.html">Início</a>
+          <div class="portes_animais">
+            <button onclick="toggleOptions(this)">Animais</button>
+            <div class="options">
+              <div class="infos_portes">
+                <ul>
+                  <li>
+                    <a href="pequeno_porte.html">Pequeno Porte</a>
+                  </li>
+                  <li>
+                    <a href="medio_porte.html">Médio Porte</a>
+                  </li>
+                  <li>
+                    <a href="grande_porte.html">Grande Porte</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <a href="missoes.html">Nossas Missões</a>
+          <a href="sobre.html">Sobre nós</a>
+        </nav>
+
+        <!--Links de navegação da página-->
+      </div>
+    </header>
+
+    <main>
+      <!--Banner da SOPRAC-->
+      <section>
+        <img
+          src="assets/IMG/banner_soprac.jpg"
+          alt="Banner da SOPRAC"
+          id="banner"
+          width="100px"
+        />
+      </section>
+      <!--Banner da SOPRAC-->
+
+      <section id="cachorros">
+        <div class="cards">
+          <div class="card1">
+            <img
+              src="assets/IMG/dogmarrom.jpg"
+              alt="Imagem do cachorro Churrasquinho"
+              width="100%"
+              height="60%"
+            />
+
+            <h2>Jandaia</h2>
+            <p>Idade: 2 anos</p>
+            <p>Raça: Vira-lata</p>
+            <button>
+              <a href="dogs/churrasquinho.html">Sobre</a>
+            </button>
+          </div>
+    </main>
+
+    <footer>
+      <div id="div_footer">
+        <img
+          src="assets/IMG/logosoprac.png"
+          alt="Logo soprac cabeçalho"
+          width="50px"
+          id="logo_footer"
+        />
+      </div>
+      <div class="ctt">
+        <!--Link para o instagram da ONG-->
+        <a
+          href="https://www.instagram.com/soprac_oficial?igsh=MWxoaHlobjlyMXZrZA=="
+        >
+          <img
+            src="assets/IMG/insta.jpg"
+            alt="Logo do instagram"
+            width="40px"
+          />
+        </a>
+        <!--Fim Link para o instagram da ONG-->
+
+        <!--Link para o whatsapp da ONG-->
+        <a href="">
+          <img
+            src="assets/IMG/Imagem do WhatsApp de 2024-11-23 à(s) 21.38.12_20ae489d.png"
+            alt="Logo do Whatsapp"
+            width="45px"
+          />
+        </a>
+
+        <!--Fim Link para o whatsapp da ONG-->
+        <!--Link para o Facebook da ONG-->
+        <a href="https://www.facebook.com/share/1XKkHtYDm3/">
+          <img
+            src="assets/IMG/facebook.png"
+            alt="Logo do Facebook"
+            width="38px"
+            id="facebook"
+            target="blank"
+          />
+        </a>
+
+        <!-- Fim Link para o Facebook da ONG-->
+      </div>
+    </footer>
+
+    <!--Botão de acessibilidade (libras)-->
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <!--importa o script do Vlibras-->
+    <script src="code/script.js"></script>
+  </body>
+</html>
