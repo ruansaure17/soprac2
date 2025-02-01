@@ -3,17 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SOPRAC</title>
-    <link rel="stylesheet" href="css/soprac.css" />
-    <link rel="icon" type="img/icon" href="assets/IMG/icone.png" />
+    <title>Jacky</title>
+    <link rel="stylesheet" href="/css/soprac.css" />
+    <link rel="icon" type="img/icon" href="/assets/IMG/icone.png" />
   </head>
-  <body background="assets/IMG/wallpaper.png">
+  <body background="/assets/IMG/wallpaper.png">
     <header>
       <div class="links_header">
         <!--Logo da Soprac-->
         <img
           class="logo_header"
-          src="assets/IMG/logosoprac.png"
+          src="/assets/IMG/logosoprac.png"
           alt="Logo da Soprac no Cabeçalho da página"
           width="58px"
         />
@@ -22,27 +22,27 @@
         <!--Links de navegação da página-->
         <nav>
           <span>SOPRAC</span>
-          <a href="html/index.html">Início</a>
+          <a href="/index.html">Início</a>
           <div class="portes_animais">
             <button onclick="toggleOptions(this)">Animais</button>
             <div class="options">
               <div class="infos_portes">
                 <ul>
                   <li>
-                    <a href="pequeno_porte.html">Pequeno Porte</a>
+                    <a href="/pequeno_porte.html">Pequeno Porte</a>
                   </li>
                   <li>
-                    <a href="medio_porte.html">Médio Porte</a>
+                    <a href="/medio_porte.html">Médio Porte</a>
                   </li>
                   <li>
-                    <a href="grande_porte.html">Grande Porte</a>
+                    <a href="/grande_porte.html">Grande Porte</a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
-          <a href="missoes.html">Nossas Missões</a>
-          <a href="sobre.html">Sobre nós</a>
+          <a href="/missoes.html">Nossas Missões</a>
+          <a href="/sobre.html">Sobre nós</a>
         </nav>
 
         <!--Links de navegação da página-->
@@ -53,7 +53,7 @@
       <!--Banner da SOPRAC-->
       <section>
         <img
-          src="assets/IMG/banner_soprac.jpg"
+          src="/assets/IMG/banner_soprac.jpg"
           alt="Banner da SOPRAC"
           id="banner"
           width="100px"
@@ -61,55 +61,35 @@
       </section>
       <!--Banner da SOPRAC-->
 
-      <section>
-        <div class="cards">
+      <section id="sec_jandaia">
+        <div class="cards_pequeno_porte" id="cards_id">
           <div class="card1">
             <img
-              src="assets/IMG/Sol.jpeg"
-              alt="Imagem do cachorro Kennedy"
-              width="100%"
-              height="60%"
-            />
-
-            <h2>Sol</h2>
-            <p>Idade: 5 anos</p>
-            <p>Raça: Pitbull</p>
-            <button><a href="dogs/sol.html">Sobre</a></button>
-          </div>
-          <div class="card2">
-            <img
-              src="assets/IMG/dogmarrom.jpg"
-              alt="Imagem do cachorro Churrasquinho"
-              width="100%"
-              height="60%"
-            />
-
-            <h2>Churrasquinho</h2>
-            <p>Idade: 5 anos</p>
-            <p>Raça: Vira-lata</p>
-            <button><a href="dogs/churrasquinho.html">Sobre</a></button>
-          </div>
-          <div class="card3">
-            <img
-              src="assets/IMG/jacky.jpeg"
-              alt="Imagem da cadela Jacky"
+              src="\assets\IMG\jacky.jpeg"
+              alt="Imagem do cachorro Thor"
               width="100%"
               height="60%"
             />
 
             <h2>Jacky</h2>
-            <p>Idade: 5 anos</p>
             <p>Raça: Vira-lata</p>
-            <button><a href="dogs/jacky.html">Sobre</a></button>
           </div>
-        </div>
+            <p id="info_dogs">
+                Resgatamos o Jacky ferido após um ataque de quatis, que infelizmente 
+                lesionou um de seus olhos. Ele é um cão carinhoso e dócil, mas um pouco
+                 desconfiado com alguns humanos. Tem aproximadamente 5 anos, é de porte
+                  médio, castrado e vacinado.
+            </p>
+
+          
+          
       </section>
     </main>
 
     <footer>
-      <div id="div_footer">
+      <div>
         <img
-          src="assets/IMG/logosoprac.png"
+          src="/assets/IMG/logosoprac.png"
           alt="Logo soprac cabeçalho"
           width="50px"
           id="logo_footer"
@@ -121,7 +101,7 @@
           href="https://www.instagram.com/soprac_oficial?igsh=MWxoaHlobjlyMXZrZA=="
         >
           <img
-            src="assets/IMG/insta.jpg"
+            src="/assets/IMG/insta.jpg"
             alt="Logo do instagram"
             width="40px"
           />
@@ -131,7 +111,7 @@
         <!--Link para o whatsapp da ONG-->
         <a href="">
           <img
-            src="assets/IMG/Imagem do WhatsApp de 2024-11-23 à(s) 21.38.12_20ae489d.png"
+            src="/assets/IMG/Imagem do WhatsApp de 2024-11-23 à(s) 21.38.12_20ae489d.png"
             alt="Logo do Whatsapp"
             width="45px"
           />
@@ -141,7 +121,7 @@
         <!--Link para o Facebook da ONG-->
         <a href="https://www.facebook.com/share/1XKkHtYDm3/">
           <img
-            src="assets/IMG/facebook.png"
+            src="/assets/IMG/facebook.png"
             alt="Logo do Facebook"
             width="38px"
             id="facebook"
@@ -162,6 +142,6 @@
     </div>
     <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
     <!--importa o script do Vlibras-->
-    <script src="code/script.js"></script>
+    <script src="/code/script.js"></script>
   </body>
 </html>
